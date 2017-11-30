@@ -78,7 +78,6 @@ def main():
     example2()
     example3()
     window = rg.RoseWindow(100)
-    rg.Circle.
     window.close_on_mouse_click()
 
 
