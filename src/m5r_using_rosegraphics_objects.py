@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
@@ -35,7 +35,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #     d. Write a line of code that construct a RoseWindow object whose height is 100 with any width you choose.
 #         (again try to use PyCharm's hints to help you figure it out)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            window = rg.RoseWindow(100,200)
 #
 #     e. Use the DOT trick to answer the following:
 #
@@ -44,10 +44,10 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #          -- Write the names of three METHODs that Circle objects have:
 #               (Hint: Use the circle from the example3 function below with the dot trick to let PyCharm help you. )
-#                __init__, super().,self.
+#               attach_to(), clone(), detach_from()
 #
 #          -- Write the names of three INSTANCE VARIABLEs that Circle objects have:
-#                self, center, radius, center, tkinter.Canvas.create_oval,
+#                center, defaults, fill_color
 #
 #     f. What does a RoseWindow RENDER method do?
 #            It draws all the objects attended to the window
@@ -77,7 +77,10 @@ def main():
     example1()
     example2()
     example3()
-    window = rg.RoseWindow()
+    window = rg.RoseWindow(100)
+    rg.Circle.
+    window.close_on_mouse_click()
+
 
 
 def example1():
